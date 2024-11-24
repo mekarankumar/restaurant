@@ -1,0 +1,82 @@
+/* General Body Styling */
+.admin-body {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    padding-bottom: 2rem;
+}
+
+/* Navbar Styling */
+.admin-navbar {
+    background-color: #343a40;
+    padding: 1rem;
+    color: white;
+}
+
+.admin-navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.admin-navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.admin-navbar-link {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.admin-navbar-link:hover {
+    background-color: #495057;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .admin-navbar-menu {
+        flex-direction: column;
+        /* Stack links vertically */
+        gap: 0.5rem;
+    }
+
+    .admin-navbar-link {
+        padding: 0.75rem;
+        text-align: center;
+    }
+}
+
+/* Summary Cards */
+.admin-summary-card {
+    background-color: white;
+    border: 2px solid #605678;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.dashboard-home {
+    justify-content: center;
+    display: flex;
+}
+
+/* Content Box */
+.admin-content-box {
+    background-color: white;
+    border: 2px solid #605678;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
